@@ -1,5 +1,5 @@
-﻿#[string]$tipo
-$contenido = Get-Content -Path .\css\estilos.css
+﻿$archivoCss = ".\css\estilos.css"
+$contenido = Get-Content -Path $archivoCss
 # $contenido | ForEach-Object {
 #     if ($_ -match "#mi-id.*") {
 #         $tipo = $_.GetType().Name
@@ -15,4 +15,4 @@ for ($i = 0; $i -lt $contenido.Count; $i++) {
     }
 }
 
-$contenido | Set-Content -Path .\css\estilos.css
+Set-Content -Path $archivoCss -Value $contenido
