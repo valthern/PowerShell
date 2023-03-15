@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(29, 22, 73);
+}
+
+h1{
+    color: aquamarine;
+    font-weight: bold;
+}
+
+#mi-id{
+    color:gold;
+}
+
+p{
+    color: blanchedalmond;
+}
