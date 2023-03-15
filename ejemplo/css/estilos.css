@@ -1,16 +1,12 @@
-body{
-    background-color: rgb(29, 22, 73);
-}
-
 h1{
-    color: aquamarine;
+    color: blueviolet;
     font-weight: bold;
 }
 
-#mi-id{
-    color:gold;
+p{
+    color: darkolivegreen;
 }
 
-p{
-    color: blanchedalmond;
+#mi-id{
+    color:blue;
 }

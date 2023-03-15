@@ -1,3 +1,1 @@
-﻿$archivoCss=".\css\estilos.css"
-$nuevoColor="#71fc88"
-(Get-Content -Path $archivoCss) -replace "#mi-id\s*{\s*color:\s*gold;","#mi-id { color: $nuevoColor;" | Set-Content -Path $archivoCss
+﻿(Get-Content -Path ".\css\estilos.css") -replace "#mi-id\s*{\s*background-color:\s*blue\s*;", "#mi-id { background-color: red;" | Set-Content -Path ".\css\estilos.css"
