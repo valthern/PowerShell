@@ -1,3 +1,9 @@
+<#!/usr/bin/env pwsh#>
+<#
+Para saber el resultado de la última operación se puede utilizar la variable "$?", 
+la cual registra el resultado booleano de la operación realizada.
+#>
+
 [int]$edad = Read-Host "Introduce tu edad"
 if ($edad -ge 18) {
     Write-Host "Eres mayor de edad"
